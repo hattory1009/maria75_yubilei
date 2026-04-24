@@ -122,7 +122,7 @@ body.bold-mode .section-title, body.bold-mode .timer-label, body.bold-mode .enve
   
   <div class="section fade-in"><div class="section-title">До торжества</div><div class="timer-grid"><div class="timer-block"><div class="timer-num" id="tDays">00</div><div class="timer-label">дней</div></div><div class="timer-block"><div class="timer-num" id="tHours">00</div><div class="timer-label">часов</div></div><div class="timer-block"><div class="timer-num" id="tMins">00</div><div class="timer-label">минут</div></div><div class="timer-block"><div class="timer-num" id="tSecs">00</div><div class="timer-label">секунд</div></div></div></div>
   
-  <div class="section fade-in"><div class="section-title">Дата</div><div class="section-text" id="displayDate">Суббота, 25 апреля 2026, 16:00</div><div style="opacity:.4;margin-top:.2em;font-size:.85rem;color:#d4af37">г. Якутск</div></div>
+  <div class="section fade-in"><div class="section-title">Дата</div><div class="section-text" id="displayDate">Суббота, 25 апреля 2026, 15:00</div><div style="opacity:.4;margin-top:.2em;font-size:.85rem;color:#d4af37">г. Якутск</div></div>
   
   <div class="section fade-in"><div class="section-title">Место</div><div class="section-text" id="displayAddress">г. Якутск, проспект Ленина 5/2 к1<br>Банкетный зал "Алгыс Балаҕан"</div></div>
   
@@ -186,12 +186,12 @@ let targetDate = new Date(2026, 3, 25, 16, 0, 0); // 25 апреля 2026, 16:00
 
 const DEFAULTS = {
   name:'Мария Константиновна', 
-  date:'Суббота, 25 апреля 2026, 16:00',
-  address:'г. Якутск, проспект Ленина 5/2 к1\nБанкетный зал "Алгыс Балаҕан"',
+  date:'Суббота, 25 апреля 2026, 15:00',
+  address:'г. Якутск, проспект Ленина 5/2 к1 Банкетный зал "Алгыс Балаҕан"',
   phone:'+79644252699', 
   yakut:'Күндү оҕолорум, сиэннэрим, чугас дьонум! Өрөбүүллээх күммэр мин дьолбун үллэстэн, үөрүүбүн үксэтэн кэлэргитин кэтэһэбин!',
   textColor:'#f0e68c', textBold:false, showAurora:true,
-  targetDateStr: '2026-04-25T16:00' // Сохраняем дату для таймера
+  targetDateStr: '2026-04-25T15:00' // Сохраняем дату для таймера
 };
 
 function loadCfg(){ 
